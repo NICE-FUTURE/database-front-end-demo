@@ -9,7 +9,7 @@
 
 - 前往`Node.js`官网下载安装  [Node.js](<https://nodejs.org/en/>)
 - 在 `SQL Server 配置管理器` 或 系统的`服务` 中启动数据库服务 `SQL Server`
-- 修改 `server/database.js` 第 5 行的 `config` 内容，即：改成你的用户名、用户密码、数据库名称
+- 修改 `server/database.js` [第 5 行](https://github.com/NICE-FUTURE/database-front-end-demo/blob/f922bbe14de9b4d8ebb688a9356b1e863791dbb6/server/database.js#L3)的 `config` 内容，即：改成你的用户名、用户密码、数据库名称
 
 **在项目根目录下：**
 
