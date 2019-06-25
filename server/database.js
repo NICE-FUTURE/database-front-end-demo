@@ -1,10 +1,10 @@
 const sql = require("mssql");
 
 const config = {
-    user: "user_name",
-    password: "user_password",
-    database: "database_name",
-    server: "localhost"
+    user: "your_user_name",
+    password: "your_user_password",
+    database: "your_database_name",
+    server: "localhost"  // don't change it if you don't know what you are doing
 };
 
 function listAllTables(res) {
