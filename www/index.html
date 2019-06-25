@@ -1,0 +1,27 @@
+<html>
+    <head>
+        <meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
+        <script src="./jquery.js"></script>
+        <script src="./main.js"></script>
+        <link rel="stylesheet" href="./index.css">
+        <link rel="shortcut icon" href="#"/>
+    </head>
+    <body>
+        <div id="func-area">
+            <div id="tables">
+                <div id="select-title">选择表格</div>
+                <div id="table-select"></div>
+            </div>
+            <textarea name="query-str" id="query-str" cols="60" rows="6" placeholder="输入SQL语句"></textarea>
+            <button id="query-commit">提交</button>
+        </div>
+        <button id='insert'>insert</button>
+        <button id='update'>update</button>
+        <button id='delete'>delete</button>
+        <table id="result">
+            <caption>结果</caption>
+            <thead></thead>
+            <tbody></tbody>
+        </table>
+    </body>
+</html>
